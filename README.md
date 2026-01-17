@@ -14,8 +14,12 @@ but to build foundational defensive intuition, reinforce clean Python
 project structure, and practice interpreting security-relevant logs in a
 controlled learning context.
 
-## Features
-- Parses standard Linux authentication logs
-- Detects repeated failed login attempts
-- Summarizes activity by user and source IP
-- Focuses on defensive analysis and learning clarity
+## Limitations and Assumptions
+
+This tool is intentionally simple and designed for learning purposes. It does
+not correlate events across multiple hosts, detect slow or distributed
+brute-force attempts, or account for environmental context such as known
+administrator IP addresses. Results should be interpreted as indicators for
+further investigation, not definitive evidence of malicious activity.
+
+
