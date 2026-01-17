@@ -16,10 +16,15 @@ controlled learning context.
 
 ## Limitations and Assumptions
 
-This tool is intentionally simple and designed for learning purposes. It does
-not correlate events across multiple hosts, detect slow or distributed
-brute-force attempts, or account for environmental context such as known
-administrator IP addresses. Results should be interpreted as indicators for
-further investigation, not definitive evidence of malicious activity.
+## Usage
+
+This tool is intended to be run against a local Linux authentication log
+(such as `/var/log/auth.log`) in a controlled learning environment.
+
+Example:
+
+```bash
+python logwatch_lite.py /var/log/auth.log
+
 
 
