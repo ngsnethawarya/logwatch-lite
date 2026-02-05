@@ -26,5 +26,6 @@ Example:
 ```bash
 python logwatch_lite.py /var/log/auth.log
 
+Update: Minor documentation clarification (Feb 2026)
 
 
